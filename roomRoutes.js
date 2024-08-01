@@ -1,6 +1,6 @@
 // routes/roomRoutes.js
 const express = require('express');
-const roomController = require('../roomController');
+const roomController = require('./roomController');
 
 const router = express.Router();
 
