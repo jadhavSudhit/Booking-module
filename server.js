@@ -2,10 +2,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const roomRoutes = require('./routes/roomRoutes');
-const stayRoutes = require('./routes/stayRoutes');
-const reservationRoutes = require('./routes/reservationRoutes');
-const customerRoutes = require('./routes/customerRoutes');
+const roomRoutes = require('./roomRoutes');
+const stayRoutes = require('./stayRoutes');
+const reservationRoutes = require('./reservationRoutes');
+const customerRoutes = require('./customerRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
