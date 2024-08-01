@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
-const customersFilePath = path.join(__dirname, '../customers.json');
+const customersFilePath = path.join(__dirname, './customers.json');
 
 const readCustomersFromFile = () => {
   return JSON.parse(fs.readFileSync(customersFilePath, 'utf8'));
