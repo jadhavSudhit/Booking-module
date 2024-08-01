@@ -1,0 +1,162 @@
+[
+  {
+    "roomId": 1,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Ocean View Suite",
+    "pricePerDayPerPerson": 1200.00,
+    "guestCapacity": 4
+  },
+  {
+    "roomId": 2,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Garden Room",
+    "pricePerDayPerPerson": 800.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 3,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Deluxe Villa",
+    "pricePerDayPerPerson": 1500.00,
+    "guestCapacity": 6
+  },
+  {
+    "roomId": 4,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Beachfront Bungalow",
+    "pricePerDayPerPerson": 2000.00,
+    "guestCapacity": 4
+  },
+  {
+    "roomId": 5,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Family Suite",
+    "pricePerDayPerPerson": 1800.00,
+    "guestCapacity": 5
+  },
+  {
+    "roomId": 6,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Poolside Room",
+    "pricePerDayPerPerson": 900.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 7,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Honeymoon Suite",
+    "pricePerDayPerPerson": 2200.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 8,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Penthouse Suite",
+    "pricePerDayPerPerson": 3500.00,
+    "guestCapacity": 8
+  },
+  {
+    "roomId": 9,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Standard Room",
+    "pricePerDayPerPerson": 700.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 10,
+    "locationId": 101,
+    "locationName": "Sunset Beach Resort",
+    "roomName": "Executive Suite",
+    "pricePerDayPerPerson": 2500.00,
+    "guestCapacity": 6
+  },
+  {
+    "roomId": 11,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Alpine Room",
+    "pricePerDayPerPerson": 950.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 12,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Chalet Suite",
+    "pricePerDayPerPerson": 1800.00,
+    "guestCapacity": 4
+  },
+  {
+    "roomId": 13,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Rustic Cabin",
+    "pricePerDayPerPerson": 1100.00,
+    "guestCapacity": 3
+  },
+  {
+    "roomId": 14,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Hillside Room",
+    "pricePerDayPerPerson": 850.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 15,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Lodge Suite",
+    "pricePerDayPerPerson": 2000.00,
+    "guestCapacity": 5
+  },
+  {
+    "roomId": 16,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Summit View Room",
+    "pricePerDayPerPerson": 1300.00,
+    "guestCapacity": 4
+  },
+  {
+    "roomId": 17,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Cozy Nook",
+    "pricePerDayPerPerson": 700.00,
+    "guestCapacity": 2
+  },
+  {
+    "roomId": 18,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Pine Forest Room",
+    "pricePerDayPerPerson": 1000.00,
+    "guestCapacity": 3
+  },
+  {
+    "roomId": 19,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Luxe Suite",
+    "pricePerDayPerPerson": 2400.00,
+    "guestCapacity": 6
+  },
+  {
+    "roomId": 20,
+    "locationId": 102,
+    "locationName": "Mountain Lodge",
+    "roomName": "Woodland Retreat",
+    "pricePerDayPerPerson": 1600.00,
+    "guestCapacity": 4
+  }
+]
