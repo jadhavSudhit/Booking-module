@@ -23,6 +23,7 @@
             "FRI"
         ],
         "departureDays": [
+            "MON",
             "TUE",
             "WED",
             "SUN"
