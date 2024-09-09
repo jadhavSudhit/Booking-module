@@ -1,469 +1,1638 @@
 [
-    {
-        "roomId": 1,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "WED",
-            "SUN"
-        ],
-        "minStay": 2,
-        "maxStay": 7
-    },
-    {
-        "roomId": 1,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "TUE",
-            "WED",
-            "SUN"
-        ],
-        "minStay": 1,
-        "maxStay": 7
-    },
-    {
-        "roomId": 2,
-        "stayDateFrom": "2024-08-05",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "TUE",
-            "SAT"
-        ],
-        "departureDays": [
-            "THU",
-            "SUN"
-        ],
-        "minStay": 3,
-        "maxStay": 10
-    },
-    {
-        "roomId": 3,
-        "stayDateFrom": "2024-08-10",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "WED",
-            "SUN"
-        ],
-        "departureDays": [
-            "FRI",
-            "MON"
-        ],
-        "minStay": 1,
-        "maxStay": 5
-    },
-    {
-        "roomId": 4,
-        "stayDateFrom": "2024-08-15",
-        "stayDateTo": "2024-10-25",
-        "arrivalDays": [
-            "THU",
-            "SAT"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 8
-    },
-    {
-        "roomId": 5,
-        "stayDateFrom": "2024-08-20",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "WED",
-            "SUN"
-        ],
-        "minStay": 3,
-        "maxStay": 6
-    },
-    {
-        "roomId": 6,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "TUE",
-            "SAT"
-        ],
-        "departureDays": [
-            "THU",
-            "SUN"
-        ],
-        "minStay": 2,
-        "maxStay": 5
-    },
-    {
-        "roomId": 7,
-        "stayDateFrom": "2024-08-05",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "WED",
-            "SUN"
-        ],
-        "departureDays": [
-            "FRI",
-            "MON"
-        ],
-        "minStay": 4,
-        "maxStay": 10
-    },
-    {
-        "roomId": 8,
-        "stayDateFrom": "2024-08-10",
-        "stayDateTo": "2024-10-25",
-        "arrivalDays": [
-            "THU",
-            "SAT"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 3,
-        "maxStay": 9
-    },
-    {
-        "roomId": 9,
-        "stayDateFrom": "2024-08-15",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "WED",
-            "SUN"
-        ],
-        "minStay": 1,
-        "maxStay": 4
-    },
-    {
-        "roomId": 10,
-        "stayDateFrom": "2024-08-20",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "TUE",
-            "SAT"
-        ],
-        "departureDays": [
-            "THU",
-            "SUN"
-        ],
-        "minStay": 2,
-        "maxStay": 7
-    },
-    {
-        "roomId": 11,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "WED",
-            "SUN"
-        ],
-        "departureDays": [
-            "FRI",
-            "MON"
-        ],
-        "minStay": 3,
-        "maxStay": 8
-    },
-    {
-        "roomId": 12,
-        "stayDateFrom": "2024-08-05",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "THU",
-            "SAT"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 6
-    },
-    {
-        "roomId": 13,
-        "stayDateFrom": "2024-08-10",
-        "stayDateTo": "2024-10-25",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "WED",
-            "SUN"
-        ],
-        "minStay": 1,
-        "maxStay": 5
-    },
-    {
-        "roomId": 14,
-        "stayDateFrom": "2024-08-15",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "TUE",
-            "SAT"
-        ],
-        "departureDays": [
-            "THU",
-            "SUN"
-        ],
-        "minStay": 4,
-        "maxStay": 10
-    },
-    {
-        "roomId": 15,
-        "stayDateFrom": "2024-08-20",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "WED",
-            "SUN"
-        ],
-        "departureDays": [
-            "FRI",
-            "MON"
-        ],
-        "minStay": 3,
-        "maxStay": 9
-    },
-    {
-        "roomId": 16,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "THU",
-            "SAT"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 7
-    },
-    {
-        "roomId": 17,
-        "stayDateFrom": "2024-08-05",
-        "stayDateTo": "2024-10-25",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "WED",
-            "SUN"
-        ],
-        "minStay": 3,
-        "maxStay": 8
-    },
-    {
-        "roomId": 18,
-        "stayDateFrom": "2024-08-10",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "TUE",
-            "SAT"
-        ],
-        "departureDays": [
-            "THU",
-            "SUN"
-        ],
-        "minStay": 2,
-        "maxStay": 6
-    },
-    {
-        "roomId": 19,
-        "stayDateFrom": "2024-08-15",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "WED",
-            "SUN"
-        ],
-        "departureDays": [
-            "FRI",
-            "MON"
-        ],
-        "minStay": 4,
-        "maxStay": 10
-    },
-    {
-        "roomId": 20,
-        "stayDateFrom": "2024-08-20",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "THU",
-            "SAT"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 1,
-        "maxStay": 5
-    },
-    {
-        "roomId": 2,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 6
-    },
-    {
-        "roomId": 4,
-        "stayDateFrom": "2024-08-05",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 3,
-        "maxStay": 7
-    },
-    {
-        "roomId": 6,
-        "stayDateFrom": "2024-08-10",
-        "stayDateTo": "2024-10-25",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 1,
-        "maxStay": 4
-    },
-    {
-        "roomId": 8,
-        "stayDateFrom": "2024-08-15",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 5
-    },
-    {
-        "roomId": 10,
-        "stayDateFrom": "2024-08-20",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 3,
-        "maxStay": 8
-    },
-    {
-        "roomId": 11,
-        "stayDateFrom": "2024-08-01",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 4,
-        "maxStay": 9
-    },
-    {
-        "roomId": 13,
-        "stayDateFrom": "2024-08-05",
-        "stayDateTo": "2024-10-25",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 6
-    },
-    {
-        "roomId": 15,
-        "stayDateFrom": "2024-08-10",
-        "stayDateTo": "2024-10-31",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 3,
-        "maxStay": 7
-    },
-    {
-        "roomId": 17,
-        "stayDateFrom": "2024-08-15",
-        "stayDateTo": "2024-10-30",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 1,
-        "maxStay": 5
-    },
-    {
-        "roomId": 19,
-        "stayDateFrom": "2024-08-20",
-        "stayDateTo": "2024-10-28",
-        "arrivalDays": [
-            "MON",
-            "FRI"
-        ],
-        "departureDays": [
-            "MON",
-            "FRI"
-        ],
-        "minStay": 2,
-        "maxStay": 6
-    }
+  {
+    "roomId": 1,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 7
+  },
+  {
+    "roomId": 2,
+    "bookDateFrom": "2024-07-15",
+    "bookDateTo": "2024-09-01",
+    "stayDateFrom": "2024-07-20",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 1,
+    "maxStay": 5
+  },
+  {
+    "roomId": 3,
+    "bookDateFrom": "2024-09-05",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-20",
+    "arrivalDays": [
+      "MON",
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 4,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-07-01",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [],
+    "departureDays": [],
+    "minDeviation": null,
+    "maxDeviation": null,
+    "minStay": 1,
+    "maxStay": 10
+  },
+  {
+    "roomId": 5,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-10-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-12-01",
+    "arrivalDays": [
+      "THU",
+      "SUN"
+    ],
+    "departureDays": [
+      "TUE",
+      "FRI"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 6,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 6,
+    "bookDateFrom": "2024-07-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-10-01",
+    "arrivalDays": [
+      "MON"
+    ],
+    "departureDays": [
+      "FRI"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 8,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 7,
+    "bookDateFrom": "2024-09-10",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-09-20",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 7
+  },
+  {
+    "roomId": 8,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "WED",
+      "SAT"
+    ],
+    "departureDays": [
+      "FRI",
+      "MON"
+    ],
+    "minDeviation": null,
+    "maxDeviation": null,
+    "minStay": 3,
+    "maxStay": 8
+  },
+  {
+    "roomId": 9,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-12-01",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "SAT",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 10,
+    "bookDateFrom": "2024-07-01",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-07-15",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 4,
+    "maxDeviation": 9,
+    "minStay": 1,
+    "maxStay": 7
+  },
+  {
+    "roomId": 11,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-10-31",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-11-15",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "THU",
+      "SAT"
+    ],
+    "minDeviation": null,
+    "maxDeviation": null,
+    "minStay": 1,
+    "maxStay": 5
+  },
+  {
+    "roomId": 12,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-05",
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 4,
+    "maxStay": 10
+  },
+  {
+    "roomId": 13,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "THU",
+      "SUN"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 6,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 14,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "THU",
+      "MON"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 2,
+    "maxStay": 8
+  },
+  {
+    "roomId": 15,
+    "bookDateFrom": "2024-09-05",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 4,
+    "maxDeviation": 7,
+    "minStay": 3,
+    "maxStay": 5
+  },
+  {
+    "roomId": 16,
+    "bookDateFrom": "2024-07-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "WED"
+    ],
+    "departureDays": [
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 17,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-15",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": null,
+    "maxDeviation": null,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 18,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-08-20",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 8,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 19,
+    "bookDateFrom": "2024-09-05",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 20,
+    "bookDateFrom": "2024-08-10",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "TUE",
+      "THU"
+    ],
+    "minDeviation": 4,
+    "maxDeviation": 7,
+    "minStay": 1,
+    "maxStay": 5
+  },
+  {
+    "roomId": 1,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-15",
+    "stayDateFrom": "2024-08-05",
+    "stayDateTo": "2024-09-15",
+    "arrivalDays": [
+      "MON",
+      "WED"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 1,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "FRI",
+      "SAT"
+    ],
+    "departureDays": [
+      "WED",
+      "THU"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 1,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "TUE",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 4,
+    "maxStay": 6
+  },
+  {
+    "roomId": 1,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-20",
+    "arrivalDays": [
+      "WED"
+    ],
+    "departureDays": [
+      "FRI"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 8
+  },
+  {
+    "roomId": 2,
+    "bookDateFrom": "2024-07-10",
+    "bookDateTo": "2024-08-25",
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "THU",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 2,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-09-15",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 2,
+    "bookDateFrom": "2024-07-15",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "WED",
+      "FRI"
+    ],
+    "departureDays": [
+      "SAT",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 6,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 2,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "FRI",
+      "MON"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 3,
+    "bookDateFrom": "2024-07-01",
+    "bookDateTo": "2024-08-15",
+    "stayDateFrom": "2024-08-05",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 3,
+    "bookDateFrom": "2024-08-10",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-08-20",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "TUE",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 4,
+    "maxStay": 8
+  },
+  {
+    "roomId": 3,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 3,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "THU",
+      "SUN"
+    ],
+    "departureDays": [
+      "MON",
+      "SAT"
+    ],
+    "minDeviation": 4,
+    "maxDeviation": 7,
+    "minStay": 1,
+    "maxStay": 5
+  },
+  {
+    "roomId": 4,
+    "bookDateFrom": "2024-07-01",
+    "bookDateTo": "2024-08-15",
+    "stayDateFrom": "2024-07-20",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 6,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 4,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "THU",
+      "MON"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 4,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-20",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 7,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 4,
+    "bookDateFrom": "2024-07-15",
+    "bookDateTo": "2024-09-01",
+    "stayDateFrom": "2024-07-20",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [],
+    "departureDays": [],
+    "minDeviation": null,
+    "maxDeviation": null,
+    "minStay": 1,
+    "maxStay": 10
+  },
+  {
+    "roomId": 5,
+    "bookDateFrom": "2024-08-10",
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 5,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 5,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-15",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "WED",
+      "THU"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 5,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-05",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "FRI",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 6,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-20",
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-10-20",
+    "arrivalDays": [
+      "WED",
+      "SAT"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 6,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 6,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 6,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-30",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 7,
+    "bookDateFrom": "2024-07-15",
+    "bookDateTo": "2024-08-30",
+    "stayDateFrom": "2024-08-01",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 7,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 4,
+    "maxStay": 6
+  },
+  {
+    "roomId": 7,
+    "bookDateFrom": "2024-08-10",
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 6,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 7,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-05",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 8,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-20",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 8,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "FRI",
+      "SAT"
+    ],
+    "departureDays": [
+      "WED",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 8,
+    "bookDateFrom": "2024-08-10",
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "TUE",
+      "SUN"
+    ],
+    "departureDays": [
+      "FRI",
+      "MON"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 8,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "TUE",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 7,
+    "minStay": 4,
+    "maxStay": 8
+  },
+  {
+    "roomId": 9,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-08-20",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "WED",
+      "SAT"
+    ],
+    "departureDays": [
+      "MON",
+      "FRI"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 9,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": null,
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "TUE",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 9,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 9,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-20",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 5,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 10,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-20",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "FRI",
+      "SAT"
+    ],
+    "departureDays": [
+      "WED",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 7,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 11,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 11,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 11,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 5
+  },
+  {
+    "roomId": 12,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 12,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-08-25",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "WED"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 12,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-05",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 13,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 13,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 13,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 5
+  },
+  {
+    "roomId": 14,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-20",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "FRI",
+      "SAT"
+    ],
+    "departureDays": [
+      "WED",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 7,
+    "minStay": 3,
+    "maxStay": 6
+  },
+  {
+    "roomId": 14,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 14,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 15,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 5
+  },
+  {
+    "roomId": 15,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 3,
+    "maxDeviation": 7,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 15,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-08-10",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 16,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 5
+  },
+  {
+    "roomId": 16,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 16,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-08-25",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "WED"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 17,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 17,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "WED",
+      "SAT"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 17,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-15",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "WED",
+      "FRI"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 3,
+    "maxStay": 5
+  },
+  {
+    "roomId": 18,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "FRI",
+      "SUN"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 18,
+    "bookDateFrom": "2024-08-15",
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-08-25",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "WED"
+    ],
+    "departureDays": [
+      "FRI",
+      "SUN"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 18,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-05",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 1,
+    "maxStay": 4
+  },
+  {
+    "roomId": 19,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-20",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "TUE",
+      "SAT"
+    ],
+    "departureDays": [
+      "WED",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 3,
+    "maxStay": 7
+  },
+  {
+    "roomId": 19,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-20",
+    "stayDateFrom": "2024-09-05",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "MON",
+      "FRI"
+    ],
+    "departureDays": [
+      "TUE",
+      "THU"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 2,
+    "maxStay": 6
+  },
+  {
+    "roomId": 19,
+    "bookDateFrom": "2024-08-20",
+    "bookDateTo": "2024-09-30",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-11-01",
+    "arrivalDays": [
+      "MON",
+      "WED"
+    ],
+    "departureDays": [
+      "THU",
+      "SAT"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 20,
+    "bookDateFrom": "2024-09-01",
+    "bookDateTo": "2024-09-25",
+    "stayDateFrom": "2024-09-10",
+    "stayDateTo": "2024-10-31",
+    "arrivalDays": [
+      "WED",
+      "SAT"
+    ],
+    "departureDays": [
+      "MON",
+      "THU"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 6,
+    "minStay": 2,
+    "maxStay": 5
+  },
+  {
+    "roomId": 20,
+    "bookDateFrom": "2024-08-01",
+    "bookDateTo": "2024-08-31",
+    "stayDateFrom": "2024-08-15",
+    "stayDateTo": "2024-09-30",
+    "arrivalDays": [
+      "MON",
+      "THU"
+    ],
+    "departureDays": [
+      "TUE",
+      "FRI"
+    ],
+    "minDeviation": 1,
+    "maxDeviation": 4,
+    "minStay": 4,
+    "maxStay": 7
+  },
+  {
+    "roomId": 20,
+    "bookDateFrom": null,
+    "bookDateTo": "2024-09-10",
+    "stayDateFrom": "2024-09-01",
+    "stayDateTo": "2024-10-15",
+    "arrivalDays": [
+      "TUE",
+      "FRI"
+    ],
+    "departureDays": [
+      "THU",
+      "SUN"
+    ],
+    "minDeviation": 2,
+    "maxDeviation": 5,
+    "minStay": 2,
+    "maxStay": 6
+  }
 ]
