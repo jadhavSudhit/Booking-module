@@ -14,9 +14,9 @@
       "SUN"
     ],
     "minDeviation": 3,
-    "maxDeviation": 7,
+    "maxDeviation": 14,
     "minStay": 2,
-    "maxStay": 7
+    "maxStay": 14
   },
   {
     "roomId": 2,
