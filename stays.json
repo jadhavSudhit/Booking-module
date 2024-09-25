@@ -11,7 +11,8 @@
     ],
     "departureDays": [
       "WED",
-      "SUN"
+      "SUN",
+      "FRI"
     ],
     "minDeviation": 3,
     "maxDeviation": 14,
