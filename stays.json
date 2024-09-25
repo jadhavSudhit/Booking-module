@@ -16,9 +16,9 @@
       "FRI"
     ],
     "minDeviation": 3,
-    "maxDeviation": 14,
+    "maxDeviation": 30,
     "minStay": 2,
-    "maxStay": 14
+    "maxStay": 30
   },
   {
     "roomId": 2,
