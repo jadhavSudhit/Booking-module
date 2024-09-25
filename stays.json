@@ -28,16 +28,20 @@
     "stayDateTo": "2024-10-15",
     "arrivalDays": [
       "TUE",
-      "SAT"
+      "SAT",
+      "MON",
+      "FRI"
     ],
     "departureDays": [
       "THU",
-      "SUN"
+      "SUN",
+      "MON",
+      "FRI"
     ],
     "minDeviation": 2,
-    "maxDeviation": 5,
+    "maxDeviation": 20,
     "minStay": 1,
-    "maxStay": 5
+    "maxStay": 20
   },
   {
     "roomId": 3,
